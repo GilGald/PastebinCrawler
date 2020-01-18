@@ -1,0 +1,5 @@
+#build image
+docker build --rm -f "crawler/pastebinCrawler/DockerFile" -t dockercrawler:latest "crawler/pastebinCrawler"
+
+#run image
+docker run --rm -d dockercrawler:latest

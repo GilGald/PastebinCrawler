@@ -1,8 +1,9 @@
 # crawler
 
 In order to run the project, please run following command:
+```
 docker run -d -p 80:80 dockergil90/pastebincrawler:1.0
-
+```
 
 The structure of the project is as follows:
 Setup file calls PasateBinCrawlerJob every 2 minutes

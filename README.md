@@ -5,7 +5,7 @@ In order to run the project, please run following command:
 docker run -d -p 80:80 dockergil90/pastebincrawler:1.0
 ```
 
-After running the project take a look at the docker logs you'll see the prints of the scraped data 
+After runng the container take a look at the docker logs you'll see the prints of the scraped data 
 
 The structure of the project is as follows:
 Setup file calls PasateBinCrawlerJob every 2 minutes
